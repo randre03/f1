@@ -28,7 +28,7 @@ config :f1, F1.Repo,
   # pool_size: 10
   # username: "",
   # password: "",
-  database: "/Users/randre03/Dropbox/Projects/f1/f1db.db"
+  database: "/Users/randre03/Dropbox/Projects/f1/data/f1db.db"
 
 config :f1, ecto_repos: [F1.Repo]
 
