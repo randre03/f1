@@ -1,4 +1,4 @@
-defmodule F1.Schema.Driver do
+defmodule F1.Stats.Driver do
   use Ecto.Schema
 
   @primary_key {:driverId, :id, autogenerate: false}

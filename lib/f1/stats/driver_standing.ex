@@ -1,4 +1,4 @@
-defmodule F1.Schema.DriverStanding do
+defmodule F1.Stats.DriverStanding do
   use Ecto.Schema
 
   @primary_key {:driverStandingsId, :id, autogenerate: false}

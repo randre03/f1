@@ -1,4 +1,4 @@
-defmodule F1.Schema.Season do
+defmodule F1.Stats.Season do
   use Ecto.Schema
 
   @moduledoc """

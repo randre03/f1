@@ -1,4 +1,4 @@
-defmodule F1.Schema.Qualifying do
+defmodule F1.Stats.Qualifying do
   use Ecto.Schema
 
   @primary_key {:qualifyId, :id, autogenerate: false}

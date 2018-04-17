@@ -1,4 +1,4 @@
-defmodule F1.Schema.Circuit do
+defmodule F1.Stats.Circuit do
   use Ecto.Schema
 
   @primary_key {:circuitId, :id, autogenerate: false}

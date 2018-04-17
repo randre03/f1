@@ -1,4 +1,4 @@
-defmodule F1.Schema.ConstructorResult do
+defmodule F1.Stats.ConstructorResult do
   use Ecto.Schema
 
   @primary_key {:constructorResultsId, :id, autogenerate: false}

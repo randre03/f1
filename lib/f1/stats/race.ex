@@ -1,4 +1,4 @@
-defmodule F1.Schema.Race do
+defmodule F1.Stats.Race do
   use Ecto.Schema
 
   @primary_key {:raceId, :id, autogenerate: false}

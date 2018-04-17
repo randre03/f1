@@ -1,4 +1,4 @@
-defmodule F1.Schema.ConstructorStanding do
+defmodule F1.Stats.ConstructorStanding do
   use Ecto.Schema
 
   @primary_key {:constructorStandingsId, :id, autogenerate: false}
