@@ -21,7 +21,7 @@ defmodule F1.Stats.Result do
     field(:fastestLapTime, :string)
     field(:fastestLapSpeed, :float)
     field(:statusId, :integer)
-    belongs_to :race, Race
-    belongs_to :driver, Driver
+    # belongs_to :race, Race
+    # belongs_to :driver, Driver
   end
 end

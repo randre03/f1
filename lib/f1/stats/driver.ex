@@ -12,6 +12,6 @@ defmodule F1.Stats.Driver do
     field(:dob, :string)
     field(:nationality, :string)
     field(:url, :string)
-    has_many :results, Result
+    # has_many :results, Result
   end
 end

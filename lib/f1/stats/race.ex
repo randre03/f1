@@ -11,6 +11,6 @@ defmodule F1.Stats.Race do
     field(:date, :string)
     field(:time, :string)
     field(:url, :string)
-    has_many(:results, F1.Stats.Result)
+    # has_many(:results, F1.Stats.Result)
   end
 end
