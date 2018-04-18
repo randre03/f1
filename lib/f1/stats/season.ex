@@ -8,7 +8,7 @@ defmodule F1.Stats.Season do
   """
 
   schema "seasons" do
-    field :year, :integer
-    field :url, :string
+    field(:year, :integer)
+    field(:url, :string)
   end
 end

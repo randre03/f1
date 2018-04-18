@@ -4,9 +4,9 @@ defmodule F1.Stats.ConstructorResult do
   @primary_key {:constructorResultsId, :id, autogenerate: false}
 
   schema "constructorResults" do
-    field :raceId, :integer
-    field :constructorId, :integer
-    field :points, :integer
-    field :status, :string
+    field(:raceId, :integer)
+    field(:constructorId, :integer)
+    field(:points, :integer)
+    field(:status, :string)
   end
 end

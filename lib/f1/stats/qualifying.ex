@@ -4,13 +4,13 @@ defmodule F1.Stats.Qualifying do
   @primary_key {:qualifyId, :id, autogenerate: false}
 
   schema "qualifying" do
-    field :raceId, :integer
-    field :driverId, :integer
-    field :constructorId, :integer
-    field :number, :integer
-    field :position, :integer
-    field :q1, :string
-    field :q2, :string
-    field :q3, :string
+    field(:raceId, :integer)
+    field(:driverId, :integer)
+    field(:constructorId, :integer)
+    field(:number, :integer)
+    field(:position, :integer)
+    field(:q1, :string)
+    field(:q2, :string)
+    field(:q3, :string)
   end
 end
